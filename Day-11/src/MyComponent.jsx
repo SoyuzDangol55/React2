@@ -13,7 +13,7 @@ function MyComponent(){
     }
     return(
         <>
-        <div>
+        <div className="main-div">
             <h2>List of Foods</h2>
             <p>Click on the List to remove the List Item</p>
             <ul>

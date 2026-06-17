@@ -1,0 +1,50 @@
+body{
+   background: linear-gradient(to right, #2d9ee0, #2f80ed, #091e3a);
+   font-family:'Times New Roman', Times, serif;
+}
+
+.main-div h2{
+  color:white;
+  text-align:center;
+  font-size:3rem;
+  font-weight: bolder;
+}
+
+.main-div p{
+  color:white;
+  font-size:x-large;
+  text-align:center;
+  font-weight: bold;
+}
+
+.main-div li{
+  color:white;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.main-div input{
+  background-color: aquamarine;
+  height:35px;
+  width:250px;
+  border:3px solid black;
+  border-radius:20px;
+  text-align:center;  
+}
+
+
+.main-div button{
+  background-color: blue;
+  color:white;
+  margin:0px 0px 0px 5px;
+  height:45px;
+  width:100px;
+  border:3px solid black;
+  border-radius:20px;
+  text-align:center;  
+}
+
+.main-div button:hover{
+background-color: azure;
+color:black;
+}
