@@ -7,4 +7,4 @@ The goal of this repository is to document my progress, maintain consistency in 
 
 ## Progress Tracker
 
-[X] Day-10
+- [X] Day-10
