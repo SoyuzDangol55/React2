@@ -9,3 +9,4 @@ The goal of this repository is to document my progress, maintain consistency in 
 
 - [X] Day-10
 - [X] Day-11
+- [X] Day-12
