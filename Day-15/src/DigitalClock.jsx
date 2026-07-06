@@ -16,11 +16,12 @@ function DigitalClock(){
         let hours = time.getHours();
         const minutes = time.getMinutes();
         const seconds = time.getSeconds();
+        const milisec = time.getMilliseconds();
         const meridiem = hours >=12 ? "PM" : "AM"
 
         hours = hours%12 || 12;
 
-        return `${padZero(hours)}:${padZero(minutes)}:${padZero(seconds)} ${padZero(meridiem)}`;
+        return `${padZero(hours)}:${padZero(minutes)}:${padZero(seconds)} ${padZero(milisec)} ${padZero(meridiem)} `;
     }
 
     function padZero(number){
